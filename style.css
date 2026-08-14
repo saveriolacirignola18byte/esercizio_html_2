@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url('./media/cucina.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+    background-color: #000;  
+}
+
+h1, h2, h5 {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  color: #e81919;
+  transform: uppercase;
+}
+
+nav {
+  text-align: center;
+}
+
+nav img {
+  display: block;
+  width: 180px;
+  height: auto;
+  margin: 0 auto 15px;
+  background-color: #e81919;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+p, li, a {
+  font-family: "Rubik Spray Paint", cursive;
+  color: #e81919;
+  transform: uppercase;
+}
